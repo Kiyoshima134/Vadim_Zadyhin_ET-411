@@ -1,12 +1,20 @@
-#include <iostream>
+#include <iostream> 
 
-using namespace std;
+using namespace std; 
 
 int main()
-{
-   cout << 'Hello world!' << endl;
-   int z;
-   cin >> z;
-   cout << z;
-   return 0;
+{ 
+   char z[100]; 
+   bool IsBreak = false; 
+   cout<< "Введите число" << endl; 
+   cin >> z; 
+   for (int i = 0; z[i]! = '\0'; i++) 
+   if (z[i]<48 || z[i]>57) 
+   { 
+      cout << "Введено не число\n"; 
+      IsBreak=true; 
+      break; 
+   } 
+   cout << endl; 
+   return 0; 
 }
