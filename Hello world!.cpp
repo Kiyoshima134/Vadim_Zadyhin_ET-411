@@ -14,7 +14,8 @@ int main()
       cout << "Введено не число\n"; 
       IsBreak=true; 
       break; 
-   } 
-   cout << endl; 
+   }
+   int c = atoi(z); 
+   cout << c + 7 << endl; 
    return 0; 
 }
