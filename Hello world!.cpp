@@ -16,6 +16,6 @@ int main()
       break; 
    }
    int c = atoi(z); 
-   cout << c + 7 << endl; 
+   cout << c + 5 << endl; 
    return 0; 
 }
